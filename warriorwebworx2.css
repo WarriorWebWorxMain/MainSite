@@ -18,6 +18,10 @@ h1 {
      -moz-animation: glow 1s ease-in-out infinite alternate;
      animation: glow 1s ease-in-out infinite alternate;
 }
+
+h2 {
+	font-family: fantasy;
+}
 @-webkit-keyframes glow {
   from {
     text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px #00fa3e, 0 0 35px #02490b, 0 0 40px #e6d700, 0 0 45px #b7fa00, 0 0 50px #058d0c;
