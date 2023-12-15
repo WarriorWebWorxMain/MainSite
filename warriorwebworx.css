@@ -1,9 +1,10 @@
 body {
-    text-align: center;
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('wwwpage1.jpeg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("wwwpage1.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .fade-in {
@@ -14,146 +15,146 @@ body {
   -ms-animation: fadeIn ease 6s;
 }
 
-
-@keyframes fadeIn{
+@keyframes fadeIn {
   0% {
-    opacity:0;
+    opacity: 0;
   }
   100% {
-    opacity:1;
+    opacity: 1;
   }
 }
 
 @-moz-keyframes fadeIn {
   0% {
-    opacity:0;
+    opacity: 0;
   }
   100% {
-    opacity:1;
+    opacity: 1;
   }
 }
 
 @-webkit-keyframes fadeIn {
   0% {
-    opacity:0;
+    opacity: 0;
   }
   100% {
-    opacity:1;
+    opacity: 1;
   }
 }
 
 @-o-keyframes fadeIn {
   0% {
-    opacity:0;
+    opacity: 0;
   }
   100% {
-    opacity:1;
+    opacity: 1;
   }
 }
 
 @-ms-keyframes fadeIn {
   0% {
-    opacity:0;
+    opacity: 0;
   }
   100% {
-    opacity:1;
+    opacity: 1;
   }
 }
 
 h1 {
-     font-family: 'Black Ops One';
-     color: rgb(59, 88, 53);
-     font-size: 100px;
-     font-weight:lighter;
-     word-spacing: 65px;
-     letter-spacing: 12px;
-     font-style: normal;
-     -webkit-animation: glow 1s ease-in-out infinite alternate;
-     -moz-animation: glow 1s ease-in-out infinite alternate;
-     animation: glow 1s ease-in-out infinite alternate;
+  font-family: "Bruce Forever";
+  color: rgb(59, 88, 53);
+  font-size: 100px;
+  font-weight: lighter;
+  word-spacing: 65px;
+  letter-spacing: 12px;
+  font-style: normal;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 }
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px #00fa3e, 0 0 35px #02490b, 0 0 40px #e6d700, 0 0 45px #b7fa00, 0 0 50px #058d0c;
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px #00fa3e,
+      0 0 35px #02490b, 0 0 40px #e6d700, 0 0 45px #b7fa00, 0 0 50px #058d0c;
   }
-  
+
   to {
-    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px #01942d, 0 0 35px #00fa00, 0 0 40px #00fa00, 0 0 45px #00fa53, 0 0 50px #32fa00, 0 0 55px #4dff74;
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px #01942d, 0 0 35px #00fa00,
+      0 0 40px #00fa00, 0 0 45px #00fa53, 0 0 50px #32fa00, 0 0 55px #4dff74;
   }
 }
 
 h2 {
-     color: rgb(170, 167, 0);
-     font-family: 'a Atmospheric';
-     font-size: 40px;
-     font-weight: lighter;
- }
+  color: rgb(170, 167, 0);
+  font-family: "a Atmospheric";
+  font-size: 40px;
+  font-weight: lighter;
+}
 
 .main_nav {
-    display: block;
-    height: 50px;
-    line-height: 50px;
+  display: block;
+  height: 50px;
+  line-height: 50px;
 }
 
 .main_nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .main_nav li {
-    display: inline;
-    font-family: Play;
+  display: inline;
+  font-family: Play;
 }
 
 .main_nav li a {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 255px;
-    color: rgb(216, 212, 4);
-    font-size: 25px;
-    margin: auto;
-    
+  display: inline-block;
+  text-align: center;
+  padding: 14px 255px;
+  color: rgb(216, 212, 4);
+  font-size: 25px;
+  margin: auto;
 }
 
 .main_nav li a.active {
-    background-color: darkgreen;
+  background-color: darkgreen;
 }
 
 .page1 {
-   background: #2fd800;
-   background-image: -webkit-linear-gradient(top, #D8D400, #02b81a);
-   background-image: -moz-linear-gradient(top, #D8D400, #02b81a);
-   background-image: -ms-linear-gradient(top, #D8D400, #02b81a);
-   background-image: -o-linear-gradient(top, #D8D400, #02b81a);
-   background-image: -webkit-gradient(to bottom, #D8D400, #02b81a);
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   height: 0;
-   line-height: 0;
-   color: #000000;
-   font-family: 'a Atmospheric';
-   width: 221px;
-   font-size: 25px;
-   font-weight: 100;
-   padding: 40px;
-   -webkit-box-shadow: 1px 1px 20px 0 #000000;
-   -moz-box-shadow: 1px 1px 20px 0 #000000;
-   box-shadow: 1px 1px 20px 0 #000000;
-   text-shadow: 1px 1px 20px #000000;
-   border: solid #0DEDFA 1px;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
+  background: #2fd800;
+  background-image: -webkit-linear-gradient(top, #d8d400, #02b81a);
+  background-image: -moz-linear-gradient(top, #d8d400, #02b81a);
+  background-image: -ms-linear-gradient(top, #d8d400, #02b81a);
+  background-image: -o-linear-gradient(top, #d8d400, #02b81a);
+  background-image: -webkit-gradient(to bottom, #d8d400, #02b81a);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 0;
+  line-height: 0;
+  color: #000000;
+  font-family: "a Atmospheric";
+  width: 221px;
+  font-size: 25px;
+  font-weight: 100;
+  padding: 40px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #0dedfa 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
 }
 
 .page1:hover {
-   background: #DB0000;
-   border: solid #001BF5 0;
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   text-decoration: none;
+  background: #db0000;
+  border: solid #001bf5 0;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
 }
