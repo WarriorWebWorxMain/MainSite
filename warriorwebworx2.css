@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-  font-family: "Black Ops One";
+  font-family: "Bruce Forever";
   color: rgb(59, 88, 53);
   font-size: 100px;
   font-weight: lighter;
@@ -21,9 +21,9 @@ h1 {
 }
 
 h2 {
-  font-family: fantasy;
+  font-family: "Neuropol";
   color: rgb(44, 255, 2);
-  font-size: 50px;
+  font-size: 30px;
 }
 @-webkit-keyframes glow {
   from {
@@ -84,8 +84,9 @@ li {
   list-style-type: none;
 }
 #menu li {
-  float: left;
-  display: inline;
+  font: "Octin Stencil";
+  text-align: center;
+  display: inline-block;
   position: relative;
 }
 #menu a {
