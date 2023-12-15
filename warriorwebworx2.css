@@ -36,7 +36,12 @@ h2 {
       0 0 40px #00fa00, 0 0 45px #00fa53, 0 0 50px #32fa00, 0 0 55px #4dff74;
   }
 }
-
+ul {
+  text-align: center;
+}
+li {
+  display: inline-block;
+}
 /*.email {
 	background-color:transparent;
 	display:inline-block;
