@@ -4,11 +4,12 @@ body {
     url("wwwpage1.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position:center;
+  background-size:cover;
 }
 
 h1 {
-  font-family: "Bruce Forever";
+  font-family: "Black Ops One";
   color: rgb(59, 88, 53);
   font-size: 100px;
   font-weight: lighter;
@@ -20,11 +21,11 @@ h1 {
   animation: glow 1s ease-in-out infinite alternate;
 }
 
-h2 {
-  font-family: "Neuropol";
+/*h2 {
+  font-family: "Exo";
   color: rgb(44, 255, 2);
-  font-size: 30px;
-}
+  font-size: 80px;
+}*/
 @-webkit-keyframes glow {
   from {
     text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px #00fa3e,
@@ -40,6 +41,8 @@ ul {
   text-align: center;
 }
 li {
+  font-family: Exo;
+  font-size: 50px;
   display: inline-block;
   margin: 0 10px;
 }
@@ -65,7 +68,7 @@ li {
   background: #0099cc;
   background: linear-gradient(to bottom, #409e18, #000000);
   color: #fff;
-  height: 57px;
+  height: 65px;
   padding-left: 18px;
   border-radius: 14px;
   border: 3px inset #6d6d6d;
@@ -84,7 +87,7 @@ li {
   list-style-type: none;
 }
 #menu li {
-  font: "Octin Stencil";
+  font: "Exo";
   text-align: center;
   display: inline-block;
   position: relative;

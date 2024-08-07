@@ -5,6 +5,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  background-size:cover;
 }
 
 .fade-in {
@@ -61,7 +62,7 @@ body {
 }
 
 h1 {
-  font-family: "Bruce Forever";
+  font-family: "Black Ops One";
   color: rgb(59, 88, 53);
   font-size: 100px;
   font-weight: lighter;
@@ -86,9 +87,9 @@ h1 {
 
 h2 {
   color: rgb(170, 167, 0);
-  font-family: "a Atmospheric";
-  font-size: 40px;
-  font-weight: lighter;
+  font-family: "Black Ops One";
+  font-size: 50px;
+  font-weight: normal;
 }
 
 .main_nav {
