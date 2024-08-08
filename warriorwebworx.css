@@ -92,6 +92,11 @@ h2 {
   font-weight: normal;
 }
 
+.hq {
+  font-family: "Black Ops One";
+  
+}
+
 .main_nav {
   display: block;
   height: 50px;
